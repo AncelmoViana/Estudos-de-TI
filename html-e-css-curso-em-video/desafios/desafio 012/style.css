@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "PassioOne";
+    src: url('./fontes/PassionOne-Bold.ttf') format('truetype');
+}
+
+:root{
+    --fonte-padrao: arial, verdana, sans-serif;
+    --fonte-titulos: 'PassioOne', cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+header > h1{
+    font-family: var(--fonte-titulos);
+    font-size: 3em;
+}
+header > p{
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    font-size: 1em;
+}
+div.poesia1{
+    background-color: white;
+    padding: 20px;
+}
+div.poesia2{
+    background-image: url('imagens/background001.jpg');
+}
